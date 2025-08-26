@@ -234,16 +234,21 @@ export default function App() {
             </div>
           </Card>
           <Card>
-            <h3 className="font-semibold text-white">SMS Spam Detection</h3>
-            <p className="text-gray-300 mt-1">Multilingual spam detector using Logistic Regression + TF-IDF. Achieved 94% F1-score.</p>
-          </Card>
-          <Card>
-            <h3 className="font-semibold text-white">House Price Prediction</h3>
-            <p className="text-gray-300 mt-1">Regression model with robust feature engineering; MSE less than 5% on test set.</p>
-          </Card>
-          <Card>
-            <h3 className="font-semibold text-white">Student Management System</h3>
-            <p className="text-gray-300 mt-1">Oracle Forms + PL/SQL backend for registration, grades, reporting.</p>
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h3 className="font-semibold text-white">Titanic Survival Prediction</h3>
+                <p className="text-gray-300 mt-1">Machine learning model predicting passenger survival using classification algorithms and feature engineering.</p>
+              </div>
+              <a 
+                className="shrink-0 hover:text-indigo-400 transition-colors text-gray-400" 
+                href="https://github.com/seifnasser879/Titanic-Survival-Prediction-" 
+                target="_blank" 
+                rel="noreferrer" 
+                aria-label="GitHub Titanic Survival Prediction"
+              >
+                <ExternalLink className="w-5 h-5"/>
+              </a>
+            </div>
           </Card>
         </div>
       </Section>
