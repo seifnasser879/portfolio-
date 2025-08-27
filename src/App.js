@@ -105,23 +105,55 @@ export default function App() {
             I specialize in building intelligent systems end-to-end—designing data pipelines, training models, and deploying fast, production-ready APIs.
              My expertise spans Transformers, CNNs/RNNs, and classical ML approaches, and I enjoy translating research ideas into real-world products that drive business value.
              So Abracadabra!!! 
-             
+
              Think of me as the genie of Ai using my skills in machine learning, I turn complex challenges into smart, tailored solutions. From idea to deployment,I make AI work like magic for your needs.
           </p>
         </Card>
       </Section>
 
-      {/* Education */}
-      <Section id="education" title="Education">
-        <Card>
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <div>
-              <p className="font-medium text-white">B.Sc. in Artificial Intelligence</p>
-              <p className="text-gray-400">Faculty of AI, Menoufia University</p>
-            </div>
-          </div>
-        </Card>
-      </Section>
+    {/* Education */}
+<Section id="education" title="Education">
+  {/* Unsupervised Machine Learning - Feb 2025 */}
+  <Card>
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <div>
+        <p className="font-medium text-white">Unsupervised Machine Learning</p>
+        <p className="text-gray-400">Udemy – February 2025 | 12 Hours</p>
+      </div>
+    </div>
+  </Card>
+
+  {/* NTI Training - 2025 */}
+  <Card>
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <div>
+        <p className="font-medium text-white">National Telecommunication Institute (NTI)</p>
+        <p className="text-gray-400">120 Hours Training – 2025</p>
+      </div>
+    </div>
+  </Card>
+
+  {/* Supervised Machine Learning - Dec 2024 */}
+  <Card>
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <div>
+        <p className="font-medium text-white">Supervised Machine Learning</p>
+        <p className="text-gray-400">Udemy – December 2024 | 40.5 Hours</p>
+      </div>
+    </div>
+  </Card>
+
+  {/* Bachelor's Degree */}
+  <Card>
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <div>
+        <p className="font-medium text-white">B.Sc. in Artificial Intelligence</p>
+        <p className="text-gray-400">Faculty of AI, Menoufia University | 2023 – 2027</p>
+      </div>
+    </div>
+  </Card>
+</Section>
+
 
       {/* Skills */}
       <Section id="skills" title="Skills">
