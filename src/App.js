@@ -101,9 +101,11 @@ export default function App() {
       <Section id="about" title="About Me">
         <Card>
           <p className="text-gray-300 leading-relaxed">
-            I'm an AI & Machine Learning Engineer with hands-on experience in Python, deep learning, and NLP. I build intelligent systems end-to-end—
-            from data pipelines and model training to deploying fast APIs. I've delivered projects using Transformers, CNNs/RNNs, and classic ML, and I enjoy
-            turning research ideas into products that create business value.
+           I’m an AI & Machine Learning Engineer with hands-on experience in Python, deep learning, and NLP.
+            I specialize in building intelligent systems end-to-end—designing data pipelines, training models, and deploying fast, production-ready APIs.
+             My expertise spans Transformers, CNNs/RNNs, and classical ML approaches, and I enjoy translating research ideas into real-world products that drive business value.
+             So Abracadabra!!!
+             Think of me as the genie of AI—using my skills in machine learning, I turn complex challenges into smart, tailored solutions. From idea to deployment, I make AI work like magic for your needs.
           </p>
         </Card>
       </Section>
