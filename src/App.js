@@ -285,7 +285,7 @@ export default function App() {
               <a href="https://github.com/seifnasser879" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-indigo-400 transition-colors text-gray-300">
                 <Github className="w-5 h-5"/> github.com/seifnasser879
               </a>
-              <a href="https://linkedin.com/in/seif-nasser" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-indigo-400 transition-colors text-gray-300">
+              <a href="https://www.linkedin.com/in/seifnasser/" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-indigo-400 transition-colors text-gray-300">
                 <Linkedin className="w-5 h-5"/> linkedin.com/in/seif-nasser
               </a>
             </div>
