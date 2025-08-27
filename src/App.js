@@ -65,7 +65,7 @@ export default function App() {
               Python developer focused on Generative AI, NLP, and end-to-end ML systems. Building practical, production-ready AI—fast.
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Badge><MapPin className="w-4 h-4 mr-2"/>Maadi, Cairo, Egypt</Badge>
+              <Badge><MapPin className="w-4 h-4 mr-2"/> Cairo, Egypt</Badge>
               <Badge>Generative AI & LLMs</Badge>
               <Badge>NLP • CV • MLOps</Badge>
             </div>
