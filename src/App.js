@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Mail, Phone, MapPin, ArrowRightCircle, ExternalLink } from "lucide-react";
+import photo2 from "./photo2.png";
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="scroll-mt-24 py-16 sm:py-20">
@@ -85,12 +86,16 @@ export default function App() {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-[4/3] w-full rounded-3xl bg-gradient-to-br from-indigo-900/30 via-gray-800/50 to-purple-900/30 border border-gray-600 shadow-2xl backdrop-blur flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-purple-500/10" />
-              <div className="p-6 text-center relative z-10">
-                <p className="text-sm uppercase tracking-widest text-gray-400">Portfolio</p>
-                <p className="mt-2 text-xl font-semibold text-white">Seif Eldeen Naser</p>
-                <p className="mt-2 text-gray-300">AI & Machine Learning Engineer • Python Developer</p>
+            <div className="aspect-[4/3] w-full rounded-3xl border border-gray-600 shadow-2xl backdrop-blur overflow-hidden">
+              <img 
+                src={photo2} 
+                alt="Seif Eldeen Naser - AI & Machine Learning Engineer" 
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
+                <p className="text-xl font-semibold text-white">Seif Eldeen Naser</p>
+                <p className="mt-1 text-gray-200">AI & Machine Learning Engineer</p>
               </div>
             </div>
           </div>
@@ -100,14 +105,25 @@ export default function App() {
       {/* About */}
       <Section id="about" title="About Me">
         <Card>
-          <p className="text-gray-300 leading-relaxed">
-           I’m an AI & Machine Learning Engineer with hands-on experience in Python, deep learning, and NLP.
-            I specialize in building intelligent systems end-to-end—designing data pipelines, training models, and deploying fast, production-ready APIs.
-             My expertise spans Transformers, CNNs/RNNs, and classical ML approaches, and I enjoy translating research ideas into real-world products that drive business value.
-             So Abracadabra!!! 
-
-             Think of me as the genie of Ai using my skills in machine learning, I turn complex challenges into smart, tailored solutions. From idea to deployment,I make AI work like magic for your needs.
-          </p>
+          <div className="flex flex-col sm:flex-row gap-6 items-start">
+            <div className="shrink-0">
+              <img 
+                src={photo2} 
+                alt="Seif Eldeen Naser" 
+                className="w-32 h-32 rounded-full object-cover border-2 border-gray-600"
+              />
+            </div>
+            <div className="flex-1">
+              <p className="text-gray-300 leading-relaxed">
+               I'm an AI & Machine Learning Engineer with hands-on experience in Python, deep learning, and NLP.
+                I specialize in building intelligent systems end-to-end—designing data pipelines, training models, and deploying fast, production-ready APIs.
+                 My expertise spans Transformers, CNNs/RNNs, and classical ML approaches, and I enjoy translating research ideas into real-world products that drive business value.
+                 So Abracadabra!!! 
+                 <br/><br/>
+                 Think of me as the genie of AI using my skills in machine learning, I turn complex challenges into smart, tailored solutions. From idea to deployment, I make AI work like magic for your needs.
+              </p>
+            </div>
+          </div>
         </Card>
       </Section>
 
