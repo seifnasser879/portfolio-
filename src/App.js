@@ -1,6 +1,9 @@
 import React from "react";
 import { Github, Linkedin, Mail, Phone, MapPin, ArrowRightCircle, ExternalLink } from "lucide-react";
 import photo2 from "./photo2.png";
+import meetingAssistantImg from "./meeting-assistant.jpg";  
+import cvMatcherImg from "./cv-matcher.png";                
+import titanicImg from "./titanic.png";    
 
 const Section = ({ id, title, children }) => (
   <section id={id} className="scroll-mt-24 py-16 sm:py-20">
@@ -248,9 +251,16 @@ export default function App() {
       </Section>
 
       {/* Projects */}
-      <Section id="projects" title="Projects ">
+<Section id="projects" title="Projects ">
         <div className="grid md:grid-cols-2 gap-6">
           <Card>
+            <div className="mb-4">
+              <img 
+                src={meetingAssistantImg} 
+                alt="AI Meeting Assistant Project" 
+                className="w-full h-48 object-cover rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h3 className="font-semibold text-white">AI Meeting Assistant (LLM-based)</h3>
@@ -268,6 +278,13 @@ export default function App() {
             </div>
           </Card>
           <Card>
+            <div className="mb-4">
+              <img 
+                src={cvMatcherImg} 
+                alt="AI CV Matcher Project" 
+                className="w-full h-48 object-cover rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h3 className="font-semibold text-white">AI CV Matcher (LLM-based)</h3>
@@ -285,6 +302,13 @@ export default function App() {
             </div>
           </Card>
           <Card>
+            <div className="mb-4">
+              <img 
+                src={titanicImg}
+                alt="Titanic Survival Prediction Project" 
+                className="w-full h-48 object-cover rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between gap-4">
               <div>
                 <h3 className="font-semibold text-white">Titanic Survival Prediction</h3>
